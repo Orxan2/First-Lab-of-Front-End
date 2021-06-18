@@ -1,0 +1,133 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  border-bottom: 2px solid black;
+  margin: 25px 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 100px;
+}
+
+.container > section.left-container {
+  width: 30%;
+}
+
+.container > section.left-container > .logo-container > .logo {
+  margin: 25px;
+}
+
+.container > section.left-container > .logo-container > .logo img {
+  border-radius: 100%;
+}
+
+.container > section.left-container > .contact-container > ul.contact-list {
+  margin: 15px;
+}
+
+.container > section.left-container > .contact-container > ul.contact-list li {
+  margin-top: 5px;
+}
+
+.container > section.left-container > .contact-container > ul.contact-list li i {
+  margin-right: 10px;
+}
+
+.container > section.left-container > .aboutme-container {
+  margin: 15px;
+}
+
+.container > section.left-container > .software-container {
+  margin: 15px;
+}
+
+.container > section.left-container > .software-container ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px;
+}
+
+.container > section.left-container > .software-container ul li div i {
+  margin: 0 5px;
+}
+
+.container > section.left-container > .reference-container {
+  margin: 15px;
+}
+
+.container > section.left-container > .reference-container ul li {
+  margin: 5px;
+}
+
+.container > section.left-container > .reference-container ul li i {
+  margin-right: 10px;
+}
+
+.container > section.right-container {
+  width: 70%;
+}
+
+.container > section.right-container > .profil-container {
+  margin: 50px 10px;
+}
+
+.container > section.right-container > .profil-container > h1 {
+  padding: 5px 0;
+}
+
+.container > section.right-container > .profil-container > h4 {
+  padding-top: 10px;
+}
+
+.container > section.right-container > .experience-container, .container > section.right-container .education-container {
+  margin: 15px;
+}
+
+.container > section.right-container > .experience-container ul, .container > section.right-container .education-container ul {
+  padding: 10px 0;
+}
+
+.container > section.right-container > .experience-container ul li, .container > section.right-container .education-container ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.container > section.right-container > .experience-container ul li span, .container > section.right-container .education-container ul li span {
+  color: darkgrey;
+}
+
+.container > section.right-container > .experience-container ul li:first-child, .container > section.right-container .education-container ul li:first-child {
+  max-width: 30%;
+  -webkit-transform: translateY(-180px);
+          transform: translateY(-180px);
+}
+
+.container > section.right-container > .experience-container ul li:last-child, .container > section.right-container .education-container ul li:last-child {
+  max-width: 70%;
+}
+
+.container > section.right-container > .education-container ul li:first-child {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,103 @@
+@import "reset";
+.container {
+    display: flex;
+    margin: 0 100px;
+    & > section.left-container {
+        width: 30%;
+
+        & > .logo-container {
+            & > .logo {
+                margin: 25px;
+                img {
+                    border-radius: 100%;
+                }
+            }
+        }
+        & > .contact-container {
+            & > ul.contact-list {
+                margin: 15px;
+                li {
+                    margin-top: 5px;
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        & > .aboutme-container {
+            margin: 15px;
+        }
+        & > .software-container {
+            margin: 15px;
+            ul {
+                li {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 5px;
+                    div {
+                        i {
+                            margin: 0 5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        & > .reference-container {
+            margin: 15px;
+            ul {
+                li {
+                    margin: 5px;
+
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    & > section.right-container {
+        width: 70%;
+
+        & > .profil-container {
+            margin: 50px 10px;
+            & > h1 {
+                padding: 5px 0;
+            }
+            & > h4 {
+                padding-top: 10px;
+            }
+        }
+        & > .experience-container,.education-container {
+            margin: 15px;
+            ul{
+                padding: 10px 0;
+                // display: flex;
+                
+                li{
+                    display: inline-block;
+                    padding: 0 10px;
+                    span{
+                        color: darkgrey;
+                    }
+                }
+                li:first-child{
+                    max-width: 30%;
+                    transform: translateY(-180px);
+                }
+                li:last-child{
+                    max-width: 70%;
+                }
+            }
+        }
+        & > .education-container{
+           ul{
+            li:first-child{
+                transform: translateY(-20px);
+            }
+           }
+        }
+       
+    }
+}
